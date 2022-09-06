@@ -1,0 +1,29 @@
+
+.void {
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    border: solid;
+    width: 600px;
+    height: 600px;
+    margin-top: 150px;
+
+    
+}
+
+.square {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    border: solid;
+    background-color: aqua;
+    flex: 1 0 auto;
+    
+}
