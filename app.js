@@ -12,4 +12,12 @@ for (let i = 0; i < gridSize*gridSize; i++) {
 
 }
 
-console.log(grid)
+document.querySelectorAll('.square').forEach(item => {
+    item.addEventListener("mouseover", event => {
+        item.className = 'squareHovered'
+    })
+})
+
+console.log()
+
+
